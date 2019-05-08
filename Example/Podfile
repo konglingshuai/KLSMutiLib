@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'KLSMutiLib_Example' do
+  pod 'KLSMutiLib', :path => '../'
+
+  target 'KLSMutiLib_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
