@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KLSMutiLib'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of KLSMutiLib.'
+  s.version          = '0.0.1'
+  s.summary          = '测试'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/konglshuai@163.com/KLSMutiLib'
+一个测试的pod
+                DESC
+  s.homepage         = 'https://github.com/konglingshuai/KLSMutiLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'konglshuai@163.com' => 'konglingshuai@01zhuanche.com' }
   s.source           = { :git => 'https://github.com/konglshuai@163.com/KLSMutiLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'KLSMutiLib/Classes/**/*'
   

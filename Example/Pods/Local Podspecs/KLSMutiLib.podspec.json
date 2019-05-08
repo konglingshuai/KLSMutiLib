@@ -1,0 +1,22 @@
+{
+  "name": "KLSMutiLib",
+  "version": "0.1.0",
+  "summary": "A short description of KLSMutiLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/konglshuai@163.com/KLSMutiLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "konglshuai@163.com": "konglingshuai@01zhuanche.com"
+  },
+  "source": {
+    "git": "https://github.com/konglshuai@163.com/KLSMutiLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KLSMutiLib/Classes/**/*"
+}
